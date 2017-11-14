@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation = "vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/google2"
+            android:scaleType="fitXY"
+            android:id="@+id/google"
+            android:onClick="sendGo"/>
+
+
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:src="@drawable/prothom_alo"
+                    android:id="@+id/p_alo"
+                    android:scaleType="fitXY"
+                    android:onClick="sendPa"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/kaler_kontho"
+                    android:id="@+id/ka_kon"
+                    android:scaleType="fitXY"
+                    android:onClick="sendKa"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/bdnews24"
+                    android:id="@+id/bd24"
+                    android:scaleType="fitXY"
+                    android:onClick="sendBd24"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/daily_star"
+                    android:id="@+id/dailyStar"
+                    android:scaleType="fitXY"
+                    android:onClick="sendDS"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/goal2"
+                    android:id="@+id/Goal"
+                    android:scaleType="fitXY"
+                    android:onClick="sendGoal"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/espn"
+                    android:id="@+id/espn"
+                    android:scaleType="fitXY"
+                    android:onClick="sendESPN"/>
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/category"
+
+                    android:scaleType="fitXY"
+                    android:onClick="sendCat"/>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+</LinearLayout>

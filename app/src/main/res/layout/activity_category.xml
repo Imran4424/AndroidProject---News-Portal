@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:orientation = "vertical" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:src="@drawable/homeland3"
+                android:id="@+id/p_alo"
+                android:scaleType="fitXY"
+                android:onClick="sHome"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/aboard"
+                android:id="@+id/ka_kon"
+                android:scaleType="fitXY"
+                android:onClick="sAboard"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/politics"
+                android:id="@+id/bd24"
+                android:scaleType="fitXY"
+                android:onClick="sePoli"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/science"
+                android:id="@+id/dailyStar"
+                android:scaleType="fitXY"
+                android:onClick="seSC"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/sports"
+                android:id="@+id/Goal"
+                android:scaleType="fitXY"
+                android:onClick="seSP"/>
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/business"
+                android:id="@+id/espn"
+                android:scaleType="fitXY"
+                android:onClick="seBusi"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

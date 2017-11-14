@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imu.broughttoday">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Palo" />
+        <activity android:name=".GoActivity" />
+        <activity android:name=".KalerKontho" />
+        <activity android:name=".Bd24News" />
+        <activity android:name=".DailyStar" />
+        <activity android:name=".Goal" />
+        <activity android:name=".Espn" />
+        <activity android:name=".Home" />
+        <activity android:name=".Aboard" />
+        <activity android:name=".Politics" />
+        <activity android:name=".Science" />
+        <activity android:name=".Sports" />
+        <activity android:name=".Business" />
+
+        <activity android:name=".Category"></activity>
+    </application>
+
+</manifest>
